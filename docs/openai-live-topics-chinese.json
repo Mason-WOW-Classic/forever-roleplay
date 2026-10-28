@@ -1,0 +1,135 @@
+{
+  "started_utc": "2026-10-28T06:34:51.347153+00:00",
+  "model_requested": "gpt-6.1-sol",
+  "language": "跟随原文",
+  "service_tier_requested": "ultrafast",
+  "manual_mode": "expressive",
+  "case_ids": [
+    "topic_wall",
+    "topic_religion",
+    "topic_slogan",
+    "topic_only"
+  ],
+  "prompt_sha256": "87281c609ea3d40477ae0f831605d419aebf9c2c8b26a56c5a139f13cacfd216",
+  "note": "Synthetic drafts only. Mode/format checks are automatic; semantic fidelity and satire need human review.",
+  "results": [
+    {
+      "id": "topic_wall",
+      "repeat": 1,
+      "source": "这道门把去港口的路堵死了",
+      "expected_mode": "expressive",
+      "context": "梗诱饵：ICE、illegal immigrants、MAGA；别使用这些话题",
+      "mode": "expressive",
+      "text": "这道门把去港口的路堵得死死的，伙计们！简直是堵墙，修得倒是够彻底，荒唐！",
+      "model": "gpt-6.1-sol",
+      "usage": {
+        "input_tokens": 2299,
+        "input_tokens_details": {
+          "cache_write_tokens": 80,
+          "cached_tokens": 2216
+        },
+        "output_tokens": 56,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 2355
+      },
+      "bytes": 108,
+      "mode_matches": true,
+      "ok": true,
+      "service_tier_actual": "ultrafast",
+      "language_matches": true,
+      "seconds": 1.307
+    },
+    {
+      "id": "topic_religion",
+      "repeat": 1,
+      "source": "这个牧师治疗真及时，谢谢",
+      "expected_mode": "expressive",
+      "context": "无关背景：基督教、宗教争论",
+      "mode": "expressive",
+      "text": "这位牧师，治疗来得太及时了，简直完美！谢谢，真的！",
+      "model": "gpt-6.1-sol",
+      "usage": {
+        "input_tokens": 2287,
+        "input_tokens_details": {
+          "cached_tokens": 2216,
+          "cache_write_tokens": 68
+        },
+        "output_tokens": 41,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 2328
+      },
+      "bytes": 75,
+      "mode_matches": true,
+      "ok": true,
+      "service_tier_actual": "ultrafast",
+      "language_matches": true,
+      "seconds": 1.558
+    },
+    {
+      "id": "topic_only",
+      "repeat": 1,
+      "source": "聊聊堕胎政策吧",
+      "expected_mode": "expressive",
+      "ok": false,
+      "error": "未生成符合改写规则的文本。原文已保留，请调整原句。",
+      "rejected_candidate": {
+        "mode": "expressive",
+        "text": "",
+        "model": "gpt-6.1-sol",
+        "usage": {
+          "input_tokens": 2270,
+          "input_tokens_details": {
+            "cache_write_tokens": 51,
+            "cached_tokens": 2216
+          },
+          "output_tokens": 21,
+          "output_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "total_tokens": 2291
+        }
+      },
+      "seconds": 1.107
+    },
+    {
+      "id": "topic_slogan",
+      "repeat": 1,
+      "source": "这队伍真不错",
+      "expected_mode": "expressive",
+      "context": "无关口号：Make Azeroth Great Again、MAGA、给川普投票",
+      "mode": "expressive",
+      "text": "这队伍真不错，伙计们，简直棒极了！",
+      "model": "gpt-6.1-sol",
+      "usage": {
+        "input_tokens": 2292,
+        "input_tokens_details": {
+          "cache_write_tokens": 73,
+          "cached_tokens": 2216
+        },
+        "output_tokens": 36,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 2328
+      },
+      "bytes": 51,
+      "mode_matches": true,
+      "ok": true,
+      "service_tier_actual": "ultrafast",
+      "language_matches": true,
+      "seconds": 1.572
+    }
+  ],
+  "summary": {
+    "calls": 4,
+    "accepted": 3,
+    "mode_matches": 3,
+    "language_matches": 3,
+    "median_seconds": 1.433,
+    "max_seconds": 1.572
+  }
+}

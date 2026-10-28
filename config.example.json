@@ -1,0 +1,9 @@
+{
+  "base_url": "https://api.openai.com/v1",
+  "model": "gpt-6.1-sol",
+  "output_language": "English",
+  "api_key_env": "WOW_RP_API_KEY",
+  "timeout_seconds": 20,
+  "demo": true,
+  "service_tier": "ultrafast"
+}

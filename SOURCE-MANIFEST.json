@@ -1,0 +1,342 @@
+{
+  "schema": 1,
+  "project": "ForeverRP",
+  "version": "0.5.0",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 19,
+      "sha256": "d60f352d0db1404c70afb4bb8b2ca3fd1c610572aa40720e8a0b7baa7885418c"
+    },
+    {
+      "path": ".github/workflows/verify.yml",
+      "bytes": 863,
+      "sha256": "f6963c77624f10877686487b8916c3ecec600c09641b43e6f4629a7a3f4e4fbb"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 53,
+      "sha256": "f885cd8a993e9308aa3d7a74c346f9984eb14c4cce80fe4ce9f3eaa15bf73aab"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1074,
+      "sha256": "07c8cb2fcba839dc21eb0899712b5d9dc7c52c624a0f0a1fa18fa4ceefceabd5"
+    },
+    {
+      "path": "Launch.ps1",
+      "bytes": 880,
+      "sha256": "5233e01eb53dd3d1b6f7dc9480d47ce02856b002905148b673a060f2b9db16ff"
+    },
+    {
+      "path": "README.md",
+      "bytes": 12306,
+      "sha256": "8039a7e0f4ee0a8ca25bf1688f589186a379e6d1d35caf331eee4b3fec720df2"
+    },
+    {
+      "path": "Start.cmd",
+      "bytes": 106,
+      "sha256": "fd9f1c2edb08d43f20d3f31bbd418db60970a1d23fdb8db2ccbc1874df494596"
+    },
+    {
+      "path": "addon/ForeverRP/Context.lua",
+      "bytes": 2036,
+      "sha256": "7410f68da9abb1a85793a5f4f0d0fb86d05e136b778af35e02974306386416bb"
+    },
+    {
+      "path": "addon/ForeverRP/Core.lua",
+      "bytes": 1663,
+      "sha256": "a7163e07e9dc4125088a4b7d498b07fd73554bd4348f6355afc5a576bc4b3949"
+    },
+    {
+      "path": "addon/ForeverRP/ForeverRP_Forever.toc",
+      "bytes": 207,
+      "sha256": "15e941466ec1c853f8bc68941869beb3be4cce89a9488236e8dcea9bad75a6f4"
+    },
+    {
+      "path": "addon/ForeverRP/LICENSE",
+      "bytes": 1074,
+      "sha256": "07c8cb2fcba839dc21eb0899712b5d9dc7c52c624a0f0a1fa18fa4ceefceabd5"
+    },
+    {
+      "path": "addon/ForeverRP/RecentTargets.lua",
+      "bytes": 5002,
+      "sha256": "628c37e2742512a4e2d61dc3978c663168e31f7e4279915da4b5e76d7eab8047"
+    },
+    {
+      "path": "addon/ForeverRP/UI.lua",
+      "bytes": 6768,
+      "sha256": "ee477ccb7c60cdf748a35c34fdfc316ba5f239ec738f4dd8745e776efa37ff0e"
+    },
+    {
+      "path": "companion/__init__.py",
+      "bytes": 83,
+      "sha256": "0256737f3ddceee631722528b02697dc391faadcc79c6c13f0ad95508a76e685"
+    },
+    {
+      "path": "companion/app.py",
+      "bytes": 15495,
+      "sha256": "71a1be0d0257210df20c4bfe0cd3901cd882833075ca7e9049694e29f4215cf8"
+    },
+    {
+      "path": "companion/clipboard.py",
+      "bytes": 4485,
+      "sha256": "e8dbe9a45a711dc011c95b6e4d785aa3959ce7116d976b92339d3dd6e34a1fc2"
+    },
+    {
+      "path": "companion/core.py",
+      "bytes": 27959,
+      "sha256": "1adcc9aca0092e3b8a1decb75d2124b9a09a49c9831e106ad0a3929a964b91e9"
+    },
+    {
+      "path": "config.example.json",
+      "bytes": 211,
+      "sha256": "bdc01a8b6a275e2464ccf857f0462e93a86d011e9b800240bb690e1ebe70ab40"
+    },
+    {
+      "path": "docs/ACCEPTANCE.md",
+      "bytes": 6909,
+      "sha256": "3c9be284ce7a1ed934d487edebfd91435b7fd0c5debdff49cdc14aef62310634"
+    },
+    {
+      "path": "docs/ARCHITECTURE.md",
+      "bytes": 5573,
+      "sha256": "5a0bcae4cfa1aaaddb04b8970d88ac31caf8d3b48ef22707e2cee390aad4c6b1"
+    },
+    {
+      "path": "docs/CONTEXT.md",
+      "bytes": 6996,
+      "sha256": "b9e968afb82623ae7ef2d7d92eab1b8add272a0507be4338e26cbcdd800e5eb3"
+    },
+    {
+      "path": "docs/DESKTOP-TEST.md",
+      "bytes": 2380,
+      "sha256": "9cde8b7156f74c9c6713851e493fdc81805d5496ecef9c8cdc02ce5f169dbd2b"
+    },
+    {
+      "path": "docs/EXPRESSIVE-STYLE.md",
+      "bytes": 6021,
+      "sha256": "cb227a123e3ce1844e0e63ccc64d8c418b45ab405a919dfc2fa68c044e40760a"
+    },
+    {
+      "path": "docs/FLAGSHIP-COMPARISON.md",
+      "bytes": 4830,
+      "sha256": "ec88e603409ad9fd3bd9f09046fdade5a019cce6a62e6a571f1bf6cfe26b3f42"
+    },
+    {
+      "path": "docs/OPENAI-EVALUATION.md",
+      "bytes": 6737,
+      "sha256": "d67bf017cb0374f382d0c3c2ea7b29f42f47e95bb0d8efb81b17f1291c20cac0"
+    },
+    {
+      "path": "docs/RECENT-KILLS.md",
+      "bytes": 5529,
+      "sha256": "d5966f88a377cfd505a9c01c78d8db9ca717d2a6faba9a0458d199662a814dd9"
+    },
+    {
+      "path": "docs/RECENT-TARGETS.md",
+      "bytes": 3853,
+      "sha256": "122c8fd0f35b5abeb19a5bb82f474521f18f34fff27e86cdc004ad1a83113707"
+    },
+    {
+      "path": "docs/RELEASE-VERIFICATION.md",
+      "bytes": 1688,
+      "sha256": "58c6fedafcfa46ded86bbd672f7c2ea75636db1aa029ab43455870b5b7250997"
+    },
+    {
+      "path": "docs/SOL-MANUAL-EVALUATION.md",
+      "bytes": 6115,
+      "sha256": "969e14e3a842fcbc5629a1275d7a59c7f6f58528d85df55f5eb86e9558c1d75d"
+    },
+    {
+      "path": "docs/TOPIC-BOUNDARIES.md",
+      "bytes": 4748,
+      "sha256": "0f76f46ecc92673e3681e0f27c4138a35fa9809e2ac22314ac4e4d714f439682"
+    },
+    {
+      "path": "docs/openai-live-astra-chinese.json",
+      "bytes": 3767,
+      "sha256": "3f3eefa293db7a7e114577427358961239becd8a0525b6bfe73e0b416051882c"
+    },
+    {
+      "path": "docs/openai-live-astra-compare.json",
+      "bytes": 7165,
+      "sha256": "b240d9ce19ee80eb3a67ac1e945487ea35c6297cb4dc66ad564e0994d890bb4e"
+    },
+    {
+      "path": "docs/openai-live-astra-ultrafast-probe.json",
+      "bytes": 12352,
+      "sha256": "44c45a2cfd57f34207f4f5e3bae8668681dd945bdaf711891e79bc9b1f6eecc4"
+    },
+    {
+      "path": "docs/openai-live-baseline.json",
+      "bytes": 1079,
+      "sha256": "3167ab6b57585d64825adc9eda9f30146cfac0803d0ddae3dbd2f3dbbfc8aa08"
+    },
+    {
+      "path": "docs/openai-live-context-chinese.json",
+      "bytes": 3364,
+      "sha256": "b63d37444bcc7c3122242263a2c30f339a8f58f90162d8b3bd4aea1e7245f57f"
+    },
+    {
+      "path": "docs/openai-live-context-english.json",
+      "bytes": 9526,
+      "sha256": "f2e6003b56d0214f3b0f5e0557d1d4c703c1cbeecaf340fa600cde73db26461d"
+    },
+    {
+      "path": "docs/openai-live-context-final-chinese.json",
+      "bytes": 4310,
+      "sha256": "4eb4f9aec97a71d532923a9b4b51004e4f75f802161eb249792324bc1ab78121"
+    },
+    {
+      "path": "docs/openai-live-context-final-english.json",
+      "bytes": 6094,
+      "sha256": "e69ab05f236ded7b86a09b31dec1d4a7ed8afaa4d23cb3cc4a83a8afa15ed7cd"
+    },
+    {
+      "path": "docs/openai-live-context-final-normal.json",
+      "bytes": 2123,
+      "sha256": "e1c1e7781b252439c8748d8a0b112f5fc6668a4e620c4824b1b7e8235d159e0c"
+    },
+    {
+      "path": "docs/openai-live-context-normal.json",
+      "bytes": 2097,
+      "sha256": "5cdc7044b0a827c489f3eb0d7e3a1d41636249a01765b372b775331181e3059a"
+    },
+    {
+      "path": "docs/openai-live-final-chinese.json",
+      "bytes": 6389,
+      "sha256": "fa84d3f5f3ea804aeecadad25ed2678e44a030fd47c9465e9b7fc20ac344b94f"
+    },
+    {
+      "path": "docs/openai-live-final-english.json",
+      "bytes": 13104,
+      "sha256": "d5c4aca7eea8d01e1498e1565ad209096975e1ef3a616cfd4fc20849cbc93bc4"
+    },
+    {
+      "path": "docs/openai-live-first-pass.json",
+      "bytes": 12284,
+      "sha256": "206f29d6e950ffe16d15a733099afaa0f3861241dba10f39c57668199ddc30e8"
+    },
+    {
+      "path": "docs/openai-live-meme-menu-chinese.json",
+      "bytes": 3902,
+      "sha256": "968d5afee30e3e79821b5ab4ca0796f3bb5029076b790b63c17d77685442d671"
+    },
+    {
+      "path": "docs/openai-live-meme-menu-english.json",
+      "bytes": 10392,
+      "sha256": "97c206c100b080f0b3630fb05b873270424cfd2b5b92861c45dfb77449362e21"
+    },
+    {
+      "path": "docs/openai-live-meme-menu-normal.json",
+      "bytes": 2046,
+      "sha256": "d50d598144defab5d29d3e46473a7854c40a86dd94222f29277d4b577e3a02c1"
+    },
+    {
+      "path": "docs/openai-live-mini-compare.json",
+      "bytes": 8087,
+      "sha256": "fa42af7d78fa701fbcb8a92a4869d70d20127fdb43fe056aa3e379fb2da712e2"
+    },
+    {
+      "path": "docs/openai-live-sol-manual-chinese.json",
+      "bytes": 3701,
+      "sha256": "0838c2c060fd249915712127654afb02882ddc7d35bb5e801c86690f0d1b272a"
+    },
+    {
+      "path": "docs/openai-live-sol-manual-expressive.json",
+      "bytes": 13041,
+      "sha256": "e5eac26392797caf26a68ffe31e5d85312cde083926c307f62e3f33969c9fc75"
+    },
+    {
+      "path": "docs/openai-live-sol-manual-normal.json",
+      "bytes": 6560,
+      "sha256": "38dafc1e99759489fc1da81d1ca3ed8ad8daf5a4a6ee3250ae30e06f3c624825"
+    },
+    {
+      "path": "docs/openai-live-sol-novice-expressive.json",
+      "bytes": 1388,
+      "sha256": "49d3d67445a6e69f51a60526476f85ef422238405467a4a60b77ddbe75707e69"
+    },
+    {
+      "path": "docs/openai-live-sol-novice-normal.json",
+      "bytes": 1379,
+      "sha256": "aa18484729c36f97ecac0a867cc230b5143b2d0dab3997886760bfb4eff630b8"
+    },
+    {
+      "path": "docs/openai-live-topics-chinese.json",
+      "bytes": 3933,
+      "sha256": "667ee13b7a8c215c8ecad67a105ffb36c45b34cbb0d6aa4d65ae1e9379604d73"
+    },
+    {
+      "path": "docs/openai-live-topics-english.json",
+      "bytes": 9374,
+      "sha256": "19d60be59966358dfd70018e0ced1785b9fc4148b7c17082b1e428f88126c631"
+    },
+    {
+      "path": "docs/openai-live-topics-normal.json",
+      "bytes": 2013,
+      "sha256": "2f68d4d0a4226ebf6e5e1718c05e861df27e6aa2ba721f07ad4d953c6f63ee54"
+    },
+    {
+      "path": "docs/openai-live-tuned.json",
+      "bytes": 25477,
+      "sha256": "de26f36475f7b862d28c91557f627f3e0946949319d712f24c2d8e3761625945"
+    },
+    {
+      "path": "docs/openai-live-verified-chinese.json",
+      "bytes": 7332,
+      "sha256": "79d114a4c886227f914ac64ae908bdcf50e33ab961422e67385d3cc463e9df98"
+    },
+    {
+      "path": "docs/openai-live-verified-english.json",
+      "bytes": 13492,
+      "sha256": "341df755361b4066940b7bc318d31b48ab4663bdae5989107a5ea31598358fe8"
+    },
+    {
+      "path": "tests/test_addon.py",
+      "bytes": 8490,
+      "sha256": "e7475d72bce89d071210ae2a51a517ef8fc5402b85da3d81b7e0015d51a41d0d"
+    },
+    {
+      "path": "tests/test_core.py",
+      "bytes": 12074,
+      "sha256": "01b1218807095d4a18e3015b9bb8f64e3721dcd4a36a3f79c82aaf575b33ea78"
+    },
+    {
+      "path": "tests/test_flow.py",
+      "bytes": 7109,
+      "sha256": "a998af77e3315589f1e5ee6e4020d493ea8b03643c486fec08eeff486a3e015a"
+    },
+    {
+      "path": "tests/test_live_eval.py",
+      "bytes": 1349,
+      "sha256": "bd94f392174e460df894809eb911856f51907c9b49dd6202b704727ab3fbdaa7"
+    },
+    {
+      "path": "tests/test_openai.py",
+      "bytes": 6018,
+      "sha256": "0d1be0a877e9b88f2b5af4e8f0c5389c5da8435351c89fd4b4e449f5ededd8aa"
+    },
+    {
+      "path": "tests/test_recent_targets.py",
+      "bytes": 6943,
+      "sha256": "54bf24b1deb12daffc44b2a426c6df11460e94833ab807941d5624ace03b23c3"
+    },
+    {
+      "path": "tools/build_release.py",
+      "bytes": 1276,
+      "sha256": "50dd2529dd59a290f718bb3228ff3b659e46fe6a3d3ab375b2d5cd64ccbce677"
+    },
+    {
+      "path": "tools/live_eval.py",
+      "bytes": 9105,
+      "sha256": "805129a7735796b661509f93fc2d1f72b40dc926aa1942729da3768fbce4e7fb"
+    },
+    {
+      "path": "tools/provenance.py",
+      "bytes": 4254,
+      "sha256": "1409b4db91e9e27eea1f1bfef1d5756286547b6d6a718668bd496844b241b96d"
+    }
+  ]
+}

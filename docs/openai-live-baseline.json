@@ -1,0 +1,37 @@
+{
+  "started_utc": "2026-10-28T05:14:03.144446+00:00",
+  "model_requested": "gpt-5.4-mini",
+  "language": "English",
+  "prompt_sha256": "28690c7d8b2ef20d5c9f7cd183eb2f07dffb9827cdfde262c626684785716310",
+  "note": "Synthetic drafts only. Mode/format checks are automatic; semantic fidelity and satire need human review.",
+  "results": [
+    {
+      "id": "kill_healer",
+      "repeat": 1,
+      "source": "先杀奶",
+      "expected_mode": "brief",
+      "mode": "brief",
+      "text": "Healer FIRST! Take them down!",
+      "model": "gpt-5.4-mini-2026-03-17",
+      "usage": {
+        "prompt_tokens": 810,
+        "completion_tokens": 26,
+        "total_tokens": 836,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "bytes": 29,
+      "mode_matches": true,
+      "ok": true,
+      "seconds": 2.425
+    }
+  ]
+}

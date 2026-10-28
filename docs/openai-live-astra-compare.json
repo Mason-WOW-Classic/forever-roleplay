@@ -1,0 +1,244 @@
+{
+  "started_utc": "2026-10-28T05:27:28.493479+00:00",
+  "model_requested": "gpt-6-astra",
+  "language": "English",
+  "service_tier_requested": "ultrafast",
+  "case_ids": [
+    "kill_healer",
+    "lfm",
+    "rogue",
+    "stormwind",
+    "auction",
+    "lfm_conditions",
+    "toll",
+    "guild"
+  ],
+  "prompt_sha256": "c2c3d9973c640b5d1d4f54f8035b5c97ed6ef454641d67573e0b266432853ea0",
+  "note": "Synthetic drafts only. Mode/format checks are automatic; semantic fidelity and satire need human review.",
+  "results": [
+    {
+      "id": "kill_healer",
+      "repeat": 1,
+      "source": "先杀奶",
+      "expected_mode": "brief",
+      "mode": "brief",
+      "text": "Kill the healer FIRST, folks!",
+      "model": "gpt-6-astra",
+      "usage": {
+        "input_tokens": 1389,
+        "input_tokens_details": {
+          "cache_write_tokens": 26,
+          "cached_tokens": 1360
+        },
+        "output_tokens": 26,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 1415
+      },
+      "bytes": 29,
+      "mode_matches": true,
+      "ok": true,
+      "service_tier_actual": "ultrafast",
+      "language_matches": true,
+      "seconds": 1.659
+    },
+    {
+      "id": "lfm",
+      "repeat": 1,
+      "source": "找两个人打玛拉顿，一坦一奶",
+      "expected_mode": "expressive",
+      "mode": "expressive",
+      "text": "Maraudon LFM: need 2 people, 1 tank and 1 healer. TREMENDOUS leadership, folks: you clear the dungeon, I give the victory speech.",
+      "model": "gpt-6-astra",
+      "usage": {
+        "input_tokens": 1397,
+        "input_tokens_details": {
+          "cache_write_tokens": 1394,
+          "cached_tokens": 0
+        },
+        "output_tokens": 59,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 1456
+      },
+      "bytes": 129,
+      "mode_matches": true,
+      "ok": true,
+      "service_tier_actual": "ultrafast",
+      "language_matches": true,
+      "seconds": 1.751
+    },
+    {
+      "id": "rogue",
+      "repeat": 1,
+      "source": "这个盗贼跑得真快",
+      "expected_mode": "expressive",
+      "mode": "expressive",
+      "text": "That rogue runs FAST, folks! I promised a wall to stop him. TREMENDOUS announcement, still no wall.",
+      "model": "gpt-6-astra",
+      "usage": {
+        "input_tokens": 1394,
+        "input_tokens_details": {
+          "cache_write_tokens": 31,
+          "cached_tokens": 1360
+        },
+        "output_tokens": 45,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 1439
+      },
+      "bytes": 99,
+      "mode_matches": true,
+      "ok": true,
+      "service_tier_actual": "ultrafast",
+      "language_matches": true,
+      "seconds": 1.309
+    },
+    {
+      "id": "stormwind",
+      "repeat": 1,
+      "source": "暴风城真的难找训练师",
+      "expected_mode": "expressive",
+      "mode": "expressive",
+      "text": "Trainers are impossible to find in Stormwind, folks. I promised TREMENDOUS signage. Put my name on every building instead.",
+      "model": "gpt-6-astra",
+      "usage": {
+        "input_tokens": 1394,
+        "input_tokens_details": {
+          "cache_write_tokens": 31,
+          "cached_tokens": 1360
+        },
+        "output_tokens": 48,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 1442
+      },
+      "bytes": 122,
+      "mode_matches": true,
+      "ok": true,
+      "service_tier_actual": "ultrafast",
+      "language_matches": true,
+      "seconds": 1.512
+    },
+    {
+      "id": "auction",
+      "repeat": 1,
+      "source": "拍卖行这瓶药也太贵了",
+      "expected_mode": "expressive",
+      "mode": "expressive",
+      "text": "That AH potion is WAY too expensive, folks. Rising faster than my Trump coin! Unlike my promises, though, the potion actually delivers.",
+      "model": "gpt-6-astra",
+      "usage": {
+        "input_tokens": 1396,
+        "input_tokens_details": {
+          "cache_write_tokens": 33,
+          "cached_tokens": 1360
+        },
+        "output_tokens": 48,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 1444
+      },
+      "bytes": 135,
+      "mode_matches": true,
+      "ok": true,
+      "service_tier_actual": "ultrafast",
+      "language_matches": true,
+      "seconds": 1.368
+    },
+    {
+      "id": "lfm_conditions",
+      "repeat": 1,
+      "source": "LFM 玛拉顿，缺1坦1奶，22:00开，只打紫门，不要满级",
+      "expected_mode": "expressive",
+      "mode": "expressive",
+      "text": "LFM Maraudon: need 1 tank, 1 healer. Start 22:00, purple entrance ONLY, no max-level players. TREMENDOUS leadership, folks: you clear the dungeon, I unveil the victory plaque with my name on it.",
+      "model": "gpt-6-astra",
+      "usage": {
+        "input_tokens": 1410,
+        "input_tokens_details": {
+          "cache_write_tokens": 47,
+          "cached_tokens": 1360
+        },
+        "output_tokens": 74,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 1484
+      },
+      "bytes": 194,
+      "mode_matches": true,
+      "ok": true,
+      "service_tier_actual": "ultrafast",
+      "language_matches": true,
+      "seconds": 2.39
+    },
+    {
+      "id": "toll",
+      "repeat": 1,
+      "source": "这地精收的过路费真贵",
+      "expected_mode": "expressive",
+      "mode": "expressive",
+      "text": "That goblin's toll is outrageous, folks. I promised the BEST roads, then spent the whole budget gold-plating the tollbooth.",
+      "model": "gpt-6-astra",
+      "usage": {
+        "input_tokens": 1396,
+        "input_tokens_details": {
+          "cache_write_tokens": 33,
+          "cached_tokens": 1360
+        },
+        "output_tokens": 49,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 1445
+      },
+      "bytes": 123,
+      "mode_matches": true,
+      "ok": true,
+      "service_tier_actual": "ultrafast",
+      "language_matches": true,
+      "seconds": 2.376
+    },
+    {
+      "id": "guild",
+      "repeat": 1,
+      "source": "谢谢公会的朋友帮我做完了职业任务",
+      "expected_mode": "expressive",
+      "mode": "expressive",
+      "text": "Thanks to my guildmates for helping me finish my class quest! TREMENDOUS teamwork, folks. You did the work; I'll hold the press conference.",
+      "model": "gpt-6-astra",
+      "usage": {
+        "input_tokens": 1398,
+        "input_tokens_details": {
+          "cache_write_tokens": 35,
+          "cached_tokens": 1360
+        },
+        "output_tokens": 52,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 1450
+      },
+      "bytes": 139,
+      "mode_matches": true,
+      "ok": true,
+      "service_tier_actual": "ultrafast",
+      "language_matches": true,
+      "seconds": 1.419
+    }
+  ],
+  "summary": {
+    "calls": 8,
+    "accepted": 8,
+    "mode_matches": 8,
+    "language_matches": 8,
+    "median_seconds": 1.586,
+    "max_seconds": 2.39
+  }
+}

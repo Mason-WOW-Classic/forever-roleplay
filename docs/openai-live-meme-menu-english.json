@@ -1,0 +1,357 @@
+{
+  "started_utc": "2026-10-28T05:52:12.112929+00:00",
+  "model_requested": "gpt-6.1-sol",
+  "language": "English",
+  "service_tier_requested": "ultrafast",
+  "manual_mode": "expressive",
+  "case_ids": [
+    "lfm",
+    "novice",
+    "leader",
+    "westfall",
+    "island",
+    "mysterious",
+    "auction",
+    "price_fall",
+    "bridge",
+    "queue",
+    "gate",
+    "rumor"
+  ],
+  "prompt_sha256": "f7716d4aa5b12bf055a1643fe26e3ec16f824cf770efd5a71d027b8cb85e3426",
+  "note": "Synthetic drafts only. Mode/format checks are automatic; semantic fidelity and satire need human review.",
+  "results": [
+    {
+      "id": "lfm",
+      "repeat": 1,
+      "source": "找两个人打玛拉顿，一坦一奶",
+      "expected_mode": "expressive",
+      "mode": "expressive",
+      "text": "Maraudon! Need two more: one TANK, one HEALER. A tremendous group in the making, folks!",
+      "model": "gpt-6.1-sol",
+      "usage": {
+        "input_tokens": 1479,
+        "input_tokens_details": {
+          "cache_write_tokens": 1476,
+          "cached_tokens": 0
+        },
+        "output_tokens": 47,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 1526
+      },
+      "bytes": 87,
+      "mode_matches": true,
+      "ok": true,
+      "service_tier_actual": "ultrafast",
+      "language_matches": true,
+      "seconds": 1.734
+    },
+    {
+      "id": "novice",
+      "repeat": 1,
+      "source": "我没打过玛拉顿，想找愿意带新人的队伍",
+      "expected_mode": "expressive",
+      "mode": "expressive",
+      "text": "I've never run Maraudon, folks. Looking for a group willing to take a newcomer. That would be TREMENDOUS!",
+      "model": "gpt-6.1-sol",
+      "usage": {
+        "input_tokens": 1485,
+        "input_tokens_details": {
+          "cache_write_tokens": 41,
+          "cached_tokens": 1441
+        },
+        "output_tokens": 47,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 1532
+      },
+      "bytes": 105,
+      "mode_matches": true,
+      "ok": true,
+      "service_tier_actual": "ultrafast",
+      "language_matches": true,
+      "seconds": 2.52
+    },
+    {
+      "id": "westfall",
+      "repeat": 1,
+      "source": "西部荒野也太破了",
+      "expected_mode": "expressive",
+      "mode": "expressive",
+      "text": "Westfall is a TOTAL DISASTER, folks. Broken-down, absolutely disgraceful. Looks like Joe Biden was running the place!",
+      "model": "gpt-6.1-sol",
+      "usage": {
+        "input_tokens": 1476,
+        "input_tokens_details": {
+          "cached_tokens": 1441,
+          "cache_write_tokens": 32
+        },
+        "output_tokens": 46,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 1522
+      },
+      "bytes": 117,
+      "mode_matches": true,
+      "ok": true,
+      "service_tier_actual": "ultrafast",
+      "language_matches": true,
+      "seconds": 1.485
+    },
+    {
+      "id": "island",
+      "repeat": 1,
+      "source": "赞达拉巨魔这个小岛看起来神神秘秘的",
+      "expected_mode": "expressive",
+      "mode": "expressive",
+      "text": "This little Zandalari troll island looks VERY mysterious, folks. Even the palm trees look classified!",
+      "model": "gpt-6.1-sol",
+      "usage": {
+        "input_tokens": 1483,
+        "input_tokens_details": {
+          "cache_write_tokens": 39,
+          "cached_tokens": 1441
+        },
+        "output_tokens": 124,
+        "output_tokens_details": {
+          "reasoning_tokens": 82
+        },
+        "total_tokens": 1607
+      },
+      "bytes": 101,
+      "mode_matches": true,
+      "ok": true,
+      "service_tier_actual": "ultrafast",
+      "language_matches": true,
+      "seconds": 1.804
+    },
+    {
+      "id": "leader",
+      "repeat": 1,
+      "source": "我熟悉玛拉顿，可以带路，缺1坦1奶",
+      "expected_mode": "expressive",
+      "mode": "expressive",
+      "text": "I know Maraudon, folks, and I can show the way. Need 1 tank and 1 healer. TREMENDOUS group in the making!",
+      "model": "gpt-6.1-sol",
+      "usage": {
+        "input_tokens": 1483,
+        "input_tokens_details": {
+          "cache_write_tokens": 39,
+          "cached_tokens": 1441
+        },
+        "output_tokens": 53,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 1536
+      },
+      "bytes": 105,
+      "mode_matches": true,
+      "ok": true,
+      "service_tier_actual": "ultrafast",
+      "language_matches": true,
+      "seconds": 5.736
+    },
+    {
+      "id": "mysterious",
+      "repeat": 1,
+      "source": "这个NPC总是神出鬼没，真神秘",
+      "expected_mode": "expressive",
+      "mode": "expressive",
+      "text": "This NPC keeps appearing and disappearing, folks. VERY mysterious. More secrecy than an Epstein island guest list!",
+      "model": "gpt-6.1-sol",
+      "usage": {
+        "input_tokens": 1480,
+        "input_tokens_details": {
+          "cache_write_tokens": 36,
+          "cached_tokens": 1441
+        },
+        "output_tokens": 41,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 1521
+      },
+      "bytes": 114,
+      "mode_matches": true,
+      "ok": true,
+      "service_tier_actual": "ultrafast",
+      "language_matches": true,
+      "seconds": 3.185
+    },
+    {
+      "id": "auction",
+      "repeat": 1,
+      "source": "拍卖行这瓶药也太贵了",
+      "expected_mode": "expressive",
+      "mode": "expressive",
+      "text": "That AH potion is RIDICULOUSLY expensive, folks. Is the bottle gold-plated by Trump Tower?",
+      "model": "gpt-6.1-sol",
+      "usage": {
+        "input_tokens": 1478,
+        "input_tokens_details": {
+          "cache_write_tokens": 34,
+          "cached_tokens": 1441
+        },
+        "output_tokens": 43,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 1521
+      },
+      "bytes": 90,
+      "mode_matches": true,
+      "ok": true,
+      "service_tier_actual": "ultrafast",
+      "language_matches": true,
+      "seconds": 1.938
+    },
+    {
+      "id": "price_fall",
+      "repeat": 1,
+      "source": "这材料价格跌得真快",
+      "expected_mode": "expressive",
+      "mode": "expressive",
+      "text": "This material's price is CRASHING, folks. Tremendous speed—straight out of the Trump coin playbook!",
+      "model": "gpt-6.1-sol",
+      "usage": {
+        "input_tokens": 1475,
+        "input_tokens_details": {
+          "cache_write_tokens": 31,
+          "cached_tokens": 1441
+        },
+        "output_tokens": 44,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 1519
+      },
+      "bytes": 101,
+      "mode_matches": true,
+      "ok": true,
+      "service_tier_actual": "ultrafast",
+      "language_matches": true,
+      "seconds": 1.536
+    },
+    {
+      "id": "bridge",
+      "repeat": 1,
+      "source": "这座城的桥都塌了，路也没人修",
+      "expected_mode": "expressive",
+      "mode": "expressive",
+      "text": "This city's bridges have all collapsed, and nobody's fixing the roads. A TOTAL DISASTER, folks—looks like Biden's running the place!",
+      "model": "gpt-6.1-sol",
+      "usage": {
+        "input_tokens": 1482,
+        "input_tokens_details": {
+          "cache_write_tokens": 38,
+          "cached_tokens": 1441
+        },
+        "output_tokens": 49,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 1531
+      },
+      "bytes": 134,
+      "mode_matches": true,
+      "ok": true,
+      "service_tier_actual": "ultrafast",
+      "language_matches": true,
+      "seconds": 1.651
+    },
+    {
+      "id": "queue",
+      "repeat": 1,
+      "source": "排了半天队，还是没人来帮我办事",
+      "expected_mode": "expressive",
+      "mode": "expressive",
+      "text": "Been in this queue forever, and STILL nobody's helping me, folks. Tremendous red tape, absolutely ZERO service!",
+      "model": "gpt-6.1-sol",
+      "usage": {
+        "input_tokens": 1481,
+        "input_tokens_details": {
+          "cache_write_tokens": 37,
+          "cached_tokens": 1441
+        },
+        "output_tokens": 44,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 1525
+      },
+      "bytes": 111,
+      "mode_matches": true,
+      "ok": true,
+      "service_tier_actual": "ultrafast",
+      "language_matches": true,
+      "seconds": 1.592
+    },
+    {
+      "id": "gate",
+      "repeat": 1,
+      "source": "这道门把去港口的路堵死了",
+      "expected_mode": "expressive",
+      "mode": "expressive",
+      "text": "This gate completely blocks the road to the harbor, folks. A TREMENDOUS wall—exactly where we don't need one!",
+      "model": "gpt-6.1-sol",
+      "usage": {
+        "input_tokens": 1480,
+        "input_tokens_details": {
+          "cache_write_tokens": 36,
+          "cached_tokens": 1441
+        },
+        "output_tokens": 47,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 1527
+      },
+      "bytes": 111,
+      "mode_matches": true,
+      "ok": true,
+      "service_tier_actual": "ultrafast",
+      "language_matches": true,
+      "seconds": 2.45
+    },
+    {
+      "id": "rumor",
+      "repeat": 1,
+      "source": "有人说这个商人卖坐骑，但我不确定",
+      "expected_mode": "expressive",
+      "mode": "expressive",
+      "text": "Word is this merchant sells mounts, folks, but I'm NOT sure. Could be tremendous news, could be FAKE NEWS!",
+      "model": "gpt-6.1-sol",
+      "usage": {
+        "input_tokens": 1480,
+        "input_tokens_details": {
+          "cache_write_tokens": 36,
+          "cached_tokens": 1441
+        },
+        "output_tokens": 45,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 1525
+      },
+      "bytes": 106,
+      "mode_matches": true,
+      "ok": true,
+      "service_tier_actual": "ultrafast",
+      "language_matches": true,
+      "seconds": 1.563
+    }
+  ],
+  "summary": {
+    "calls": 12,
+    "accepted": 12,
+    "mode_matches": 12,
+    "language_matches": 12,
+    "median_seconds": 1.769,
+    "max_seconds": 5.736
+  }
+}

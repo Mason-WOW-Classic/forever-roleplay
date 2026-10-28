@@ -1,0 +1,133 @@
+{
+  "started_utc": "2026-10-28T05:41:25.261883+00:00",
+  "model_requested": "gpt-6.1-sol",
+  "language": "跟随原文",
+  "service_tier_requested": "ultrafast",
+  "manual_mode": "expressive",
+  "case_ids": [
+    "kill_healer",
+    "auction",
+    "stormwind",
+    "rogue"
+  ],
+  "prompt_sha256": "3a12ea88f0df2b4c7e2c9e8477679a473689c1893a5e5041b6972f2b0121585d",
+  "note": "Synthetic drafts only. Mode/format checks are automatic; semantic fidelity and satire need human review.",
+  "results": [
+    {
+      "id": "auction",
+      "repeat": 1,
+      "source": "拍卖行这瓶药也太贵了",
+      "expected_mode": "expressive",
+      "mode": "expressive",
+      "text": "各位，拍卖行这瓶药也太贵了，贵得离谱！这是药水，还是特朗普币啊？",
+      "model": "gpt-6.1-sol",
+      "usage": {
+        "input_tokens": 921,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 48,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 969
+      },
+      "bytes": 96,
+      "mode_matches": true,
+      "ok": true,
+      "service_tier_actual": "ultrafast",
+      "language_matches": true,
+      "seconds": 1.436
+    },
+    {
+      "id": "kill_healer",
+      "repeat": 1,
+      "source": "先杀奶",
+      "expected_mode": "expressive",
+      "mode": "expressive",
+      "text": "先杀治疗，伙计们！治疗优先，就这么简单！",
+      "model": "gpt-6.1-sol",
+      "usage": {
+        "input_tokens": 914,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 35,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 949
+      },
+      "bytes": 60,
+      "mode_matches": true,
+      "ok": true,
+      "service_tier_actual": "ultrafast",
+      "language_matches": true,
+      "seconds": 1.476
+    },
+    {
+      "id": "stormwind",
+      "repeat": 1,
+      "source": "暴风城真的难找训练师",
+      "expected_mode": "expressive",
+      "mode": "expressive",
+      "text": "暴风城的训练师真难找，各位！要的是指路牌，不是特朗普大厦的招牌！",
+      "model": "gpt-6.1-sol",
+      "usage": {
+        "input_tokens": 919,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 46,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 965
+      },
+      "bytes": 96,
+      "mode_matches": true,
+      "ok": true,
+      "service_tier_actual": "ultrafast",
+      "language_matches": true,
+      "seconds": 1.325
+    },
+    {
+      "id": "rogue",
+      "repeat": 1,
+      "source": "这个盗贼跑得真快",
+      "expected_mode": "expressive",
+      "mode": "expressive",
+      "text": "这盗贼跑得真快，伙计们，快得离谱！艾泽拉斯该给他开超速罚单了。",
+      "model": "gpt-6.1-sol",
+      "usage": {
+        "input_tokens": 919,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 119,
+        "output_tokens_details": {
+          "reasoning_tokens": 65
+        },
+        "total_tokens": 1038
+      },
+      "bytes": 93,
+      "mode_matches": true,
+      "ok": true,
+      "service_tier_actual": "ultrafast",
+      "language_matches": true,
+      "seconds": 1.889
+    }
+  ],
+  "summary": {
+    "calls": 4,
+    "accepted": 4,
+    "mode_matches": 4,
+    "language_matches": 4,
+    "median_seconds": 1.456,
+    "max_seconds": 1.889
+  }
+}

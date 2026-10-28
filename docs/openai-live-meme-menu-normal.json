@@ -1,0 +1,77 @@
+{
+  "started_utc": "2026-10-28T05:52:29.819107+00:00",
+  "model_requested": "gpt-6.1-sol",
+  "language": "English",
+  "service_tier_requested": "ultrafast",
+  "manual_mode": "normal",
+  "case_ids": [
+    "westfall",
+    "auction"
+  ],
+  "prompt_sha256": "f7716d4aa5b12bf055a1643fe26e3ec16f824cf770efd5a71d027b8cb85e3426",
+  "note": "Synthetic drafts only. Mode/format checks are automatic; semantic fidelity and satire need human review.",
+  "results": [
+    {
+      "id": "auction",
+      "repeat": 1,
+      "source": "拍卖行这瓶药也太贵了",
+      "expected_mode": "normal",
+      "mode": "normal",
+      "text": "That AH potion is WAY too expensive, folks.",
+      "model": "gpt-6.1-sol",
+      "usage": {
+        "input_tokens": 1476,
+        "input_tokens_details": {
+          "cache_write_tokens": 1473,
+          "cached_tokens": 0
+        },
+        "output_tokens": 29,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 1505
+      },
+      "bytes": 43,
+      "mode_matches": true,
+      "ok": true,
+      "service_tier_actual": "ultrafast",
+      "language_matches": true,
+      "seconds": 1.382
+    },
+    {
+      "id": "westfall",
+      "repeat": 1,
+      "source": "西部荒野也太破了",
+      "expected_mode": "normal",
+      "mode": "normal",
+      "text": "Westfall is in TERRIBLE shape, folks.",
+      "model": "gpt-6.1-sol",
+      "usage": {
+        "input_tokens": 1474,
+        "input_tokens_details": {
+          "cache_write_tokens": 31,
+          "cached_tokens": 1440
+        },
+        "output_tokens": 29,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 1503
+      },
+      "bytes": 37,
+      "mode_matches": true,
+      "ok": true,
+      "service_tier_actual": "ultrafast",
+      "language_matches": true,
+      "seconds": 1.384
+    }
+  ],
+  "summary": {
+    "calls": 2,
+    "accepted": 2,
+    "mode_matches": 2,
+    "language_matches": 2,
+    "median_seconds": 1.383,
+    "max_seconds": 1.384
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "started_utc": "2026-10-28T06:34:54.335627+00:00",
+  "model_requested": "gpt-6.1-sol",
+  "language": "English",
+  "service_tier_requested": "ultrafast",
+  "manual_mode": "normal",
+  "case_ids": [
+    "kill_healer",
+    "topic_only"
+  ],
+  "prompt_sha256": "87281c609ea3d40477ae0f831605d419aebf9c2c8b26a56c5a139f13cacfd216",
+  "note": "Synthetic drafts only. Mode/format checks are automatic; semantic fidelity and satire need human review.",
+  "results": [
+    {
+      "id": "topic_only",
+      "repeat": 1,
+      "source": "聊聊堕胎政策吧",
+      "expected_mode": "normal",
+      "ok": false,
+      "error": "未生成符合改写规则的文本。原文已保留，请调整原句。",
+      "rejected_candidate": {
+        "mode": "normal",
+        "text": "",
+        "model": "gpt-6.1-sol",
+        "usage": {
+          "input_tokens": 2248,
+          "input_tokens_details": {
+            "cache_write_tokens": 2245,
+            "cached_tokens": 0
+          },
+          "output_tokens": 20,
+          "output_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "total_tokens": 2268
+        }
+      },
+      "seconds": 1.319
+    },
+    {
+      "id": "kill_healer",
+      "repeat": 1,
+      "source": "先杀奶",
+      "expected_mode": "normal",
+      "mode": "normal",
+      "text": "Healer FIRST, folks!",
+      "model": "gpt-6.1-sol",
+      "usage": {
+        "input_tokens": 2244,
+        "input_tokens_details": {
+          "cache_write_tokens": 26,
+          "cached_tokens": 2215
+        },
+        "output_tokens": 25,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 2269
+      },
+      "bytes": 20,
+      "mode_matches": true,
+      "ok": true,
+      "service_tier_actual": "ultrafast",
+      "language_matches": true,
+      "seconds": 3.52
+    }
+  ],
+  "summary": {
+    "calls": 2,
+    "accepted": 1,
+    "mode_matches": 1,
+    "language_matches": 1,
+    "median_seconds": 2.42,
+    "max_seconds": 3.52
+  }
+}

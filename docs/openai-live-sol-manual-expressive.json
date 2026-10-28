@@ -1,0 +1,461 @@
+{
+  "started_utc": "2026-10-28T05:41:13.019235+00:00",
+  "model_requested": "gpt-6.1-sol",
+  "language": "English",
+  "service_tier_requested": "ultrafast",
+  "manual_mode": "expressive",
+  "case_ids": [
+    "kill_healer",
+    "lfm",
+    "rogue",
+    "stormwind",
+    "auction",
+    "lfm_conditions",
+    "toll",
+    "guild"
+  ],
+  "prompt_sha256": "3a12ea88f0df2b4c7e2c9e8477679a473689c1893a5e5041b6972f2b0121585d",
+  "note": "Synthetic drafts only. Mode/format checks are automatic; semantic fidelity and satire need human review.",
+  "results": [
+    {
+      "id": "kill_healer",
+      "repeat": 1,
+      "source": "先杀奶",
+      "expected_mode": "expressive",
+      "mode": "expressive",
+      "text": "Healer FIRST, folks! Take that healer down!",
+      "model": "gpt-6.1-sol",
+      "usage": {
+        "input_tokens": 894,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 31,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 925
+      },
+      "bytes": 43,
+      "mode_matches": true,
+      "ok": true,
+      "service_tier_actual": "ultrafast",
+      "language_matches": true,
+      "seconds": 1.414
+    },
+    {
+      "id": "lfm",
+      "repeat": 1,
+      "source": "找两个人打玛拉顿，一坦一奶",
+      "expected_mode": "expressive",
+      "mode": "expressive",
+      "text": "Maraudon! Need 2 more: 1 TANK, 1 HEALER. Let's get this group together, folks!",
+      "model": "gpt-6.1-sol",
+      "usage": {
+        "input_tokens": 902,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 49,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 951
+      },
+      "bytes": 78,
+      "mode_matches": true,
+      "ok": true,
+      "service_tier_actual": "ultrafast",
+      "language_matches": true,
+      "seconds": 1.422
+    },
+    {
+      "id": "stormwind",
+      "repeat": 1,
+      "source": "暴风城真的难找训练师",
+      "expected_mode": "expressive",
+      "mode": "expressive",
+      "text": "Finding a trainer in Stormwind is a nightmare, folks. We need DIRECTIONS, not another Trump Tower sign.",
+      "model": "gpt-6.1-sol",
+      "usage": {
+        "input_tokens": 899,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 43,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 942
+      },
+      "bytes": 103,
+      "mode_matches": true,
+      "ok": true,
+      "service_tier_actual": "ultrafast",
+      "language_matches": true,
+      "seconds": 1.317
+    },
+    {
+      "id": "rogue",
+      "repeat": 1,
+      "source": "这个盗贼跑得真快",
+      "expected_mode": "expressive",
+      "mode": "expressive",
+      "text": "That rogue moves FAST, folks. Faster than Trump changes the subject when Epstein comes up.",
+      "model": "gpt-6.1-sol",
+      "usage": {
+        "input_tokens": 899,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 38,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 937
+      },
+      "bytes": 90,
+      "mode_matches": true,
+      "ok": true,
+      "service_tier_actual": "ultrafast",
+      "language_matches": true,
+      "seconds": 1.51
+    },
+    {
+      "id": "auction",
+      "repeat": 1,
+      "source": "拍卖行这瓶药也太贵了",
+      "expected_mode": "expressive",
+      "mode": "expressive",
+      "text": "That AH potion is WAY too expensive, folks. What is this, Trump coin at launch?",
+      "model": "gpt-6.1-sol",
+      "usage": {
+        "input_tokens": 901,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 39,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 940
+      },
+      "bytes": 79,
+      "mode_matches": true,
+      "ok": true,
+      "service_tier_actual": "ultrafast",
+      "language_matches": true,
+      "seconds": 1.466
+    },
+    {
+      "id": "lfm_conditions",
+      "repeat": 1,
+      "source": "LFM 玛拉顿，缺1坦1奶，22:00开，只打紫门，不要满级",
+      "expected_mode": "expressive",
+      "mode": "expressive",
+      "text": "LFM Maraudon! Need 1 tank, 1 healer. Start 22:00, purple entrance ONLY. No max-level characters, folks!",
+      "model": "gpt-6.1-sol",
+      "usage": {
+        "input_tokens": 915,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 52,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 967
+      },
+      "bytes": 103,
+      "mode_matches": true,
+      "ok": true,
+      "service_tier_actual": "ultrafast",
+      "language_matches": true,
+      "seconds": 1.476
+    },
+    {
+      "id": "toll",
+      "repeat": 1,
+      "source": "这地精收的过路费真贵",
+      "expected_mode": "expressive",
+      "mode": "expressive",
+      "text": "This goblin's toll is WAY too expensive, folks. You'd think the road was paved with Trump coin!",
+      "model": "gpt-6.1-sol",
+      "usage": {
+        "input_tokens": 901,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 43,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 944
+      },
+      "bytes": 95,
+      "mode_matches": true,
+      "ok": true,
+      "service_tier_actual": "ultrafast",
+      "language_matches": true,
+      "seconds": 1.422
+    },
+    {
+      "id": "guild",
+      "repeat": 1,
+      "source": "谢谢公会的朋友帮我做完了职业任务",
+      "expected_mode": "expressive",
+      "mode": "expressive",
+      "text": "Big thanks to my guild friends for helping me finish my class quest. Tremendous help, folks!",
+      "model": "gpt-6.1-sol",
+      "usage": {
+        "input_tokens": 903,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 40,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 943
+      },
+      "bytes": 92,
+      "mode_matches": true,
+      "ok": true,
+      "service_tier_actual": "ultrafast",
+      "language_matches": true,
+      "seconds": 1.312
+    },
+    {
+      "id": "kill_healer",
+      "repeat": 2,
+      "source": "先杀奶",
+      "expected_mode": "expressive",
+      "mode": "expressive",
+      "text": "Healer FIRST, folks! Take that healer down!",
+      "model": "gpt-6.1-sol",
+      "usage": {
+        "input_tokens": 894,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 31,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 925
+      },
+      "bytes": 43,
+      "mode_matches": true,
+      "ok": true,
+      "service_tier_actual": "ultrafast",
+      "language_matches": true,
+      "seconds": 1.231
+    },
+    {
+      "id": "lfm",
+      "repeat": 2,
+      "source": "找两个人打玛拉顿，一坦一奶",
+      "expected_mode": "expressive",
+      "mode": "expressive",
+      "text": "Maraudon! Need 2 more: 1 TANK, 1 HEALER. Let's get this group together, folks!",
+      "model": "gpt-6.1-sol",
+      "usage": {
+        "input_tokens": 902,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 49,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 951
+      },
+      "bytes": 78,
+      "mode_matches": true,
+      "ok": true,
+      "service_tier_actual": "ultrafast",
+      "language_matches": true,
+      "seconds": 1.873
+    },
+    {
+      "id": "rogue",
+      "repeat": 2,
+      "source": "这个盗贼跑得真快",
+      "expected_mode": "expressive",
+      "mode": "expressive",
+      "text": "That rogue moves FAST, folks. Faster than Trump changes the subject when Epstein comes up.",
+      "model": "gpt-6.1-sol",
+      "usage": {
+        "input_tokens": 899,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 38,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 937
+      },
+      "bytes": 90,
+      "mode_matches": true,
+      "ok": true,
+      "service_tier_actual": "ultrafast",
+      "language_matches": true,
+      "seconds": 1.493
+    },
+    {
+      "id": "stormwind",
+      "repeat": 2,
+      "source": "暴风城真的难找训练师",
+      "expected_mode": "expressive",
+      "mode": "expressive",
+      "text": "Finding a trainer in Stormwind is a real maze, folks. We need clear signs, not another Trump Tower logo!",
+      "model": "gpt-6.1-sol",
+      "usage": {
+        "input_tokens": 899,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 44,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 943
+      },
+      "bytes": 104,
+      "mode_matches": true,
+      "ok": true,
+      "service_tier_actual": "ultrafast",
+      "language_matches": true,
+      "seconds": 1.437
+    },
+    {
+      "id": "lfm_conditions",
+      "repeat": 2,
+      "source": "LFM 玛拉顿，缺1坦1奶，22:00开，只打紫门，不要满级",
+      "expected_mode": "expressive",
+      "mode": "expressive",
+      "text": "LFM Maraudon! Need 1 tank, 1 healer. Start 22:00, purple entrance ONLY. No max-level players, folks!",
+      "model": "gpt-6.1-sol",
+      "usage": {
+        "input_tokens": 915,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 52,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 967
+      },
+      "bytes": 100,
+      "mode_matches": true,
+      "ok": true,
+      "service_tier_actual": "ultrafast",
+      "language_matches": true,
+      "seconds": 1.295
+    },
+    {
+      "id": "auction",
+      "repeat": 2,
+      "source": "拍卖行这瓶药也太贵了",
+      "expected_mode": "expressive",
+      "mode": "expressive",
+      "text": "That AH potion is WAY too expensive, folks. Priced like it comes with its own Trump Tower!",
+      "model": "gpt-6.1-sol",
+      "usage": {
+        "input_tokens": 901,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 41,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 942
+      },
+      "bytes": 90,
+      "mode_matches": true,
+      "ok": true,
+      "service_tier_actual": "ultrafast",
+      "language_matches": true,
+      "seconds": 2.086
+    },
+    {
+      "id": "toll",
+      "repeat": 2,
+      "source": "这地精收的过路费真贵",
+      "expected_mode": "expressive",
+      "mode": "expressive",
+      "text": "This goblin's toll is WAY too expensive, folks. For that price, the road should be paved in gold!",
+      "model": "gpt-6.1-sol",
+      "usage": {
+        "input_tokens": 901,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 44,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 945
+      },
+      "bytes": 97,
+      "mode_matches": true,
+      "ok": true,
+      "service_tier_actual": "ultrafast",
+      "language_matches": true,
+      "seconds": 1.64
+    },
+    {
+      "id": "guild",
+      "repeat": 2,
+      "source": "谢谢公会的朋友帮我做完了职业任务",
+      "expected_mode": "expressive",
+      "mode": "expressive",
+      "text": "Big thanks to my guild friends for helping me finish my class quest. Fantastic people, folks!",
+      "model": "gpt-6.1-sol",
+      "usage": {
+        "input_tokens": 903,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 39,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 942
+      },
+      "bytes": 93,
+      "mode_matches": true,
+      "ok": true,
+      "service_tier_actual": "ultrafast",
+      "language_matches": true,
+      "seconds": 1.704
+    }
+  ],
+  "summary": {
+    "calls": 16,
+    "accepted": 16,
+    "mode_matches": 16,
+    "language_matches": 16,
+    "median_seconds": 1.452,
+    "max_seconds": 2.086
+  }
+}

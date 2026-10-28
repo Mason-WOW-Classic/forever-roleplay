@@ -1,0 +1,245 @@
+{
+  "started_utc": "2026-10-28T05:41:05.648687+00:00",
+  "model_requested": "gpt-6.1-sol",
+  "language": "English",
+  "service_tier_requested": "ultrafast",
+  "manual_mode": "normal",
+  "case_ids": [
+    "kill_healer",
+    "lfm",
+    "rogue",
+    "stormwind",
+    "auction",
+    "lfm_conditions",
+    "toll",
+    "guild"
+  ],
+  "prompt_sha256": "3a12ea88f0df2b4c7e2c9e8477679a473689c1893a5e5041b6972f2b0121585d",
+  "note": "Synthetic drafts only. Mode/format checks are automatic; semantic fidelity and satire need human review.",
+  "results": [
+    {
+      "id": "lfm",
+      "repeat": 1,
+      "source": "找两个人打玛拉顿，一坦一奶",
+      "expected_mode": "normal",
+      "mode": "normal",
+      "text": "Maraudon! Need two more: one tank, one healer, folks.",
+      "model": "gpt-6.1-sol",
+      "usage": {
+        "input_tokens": 900,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 36,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 936
+      },
+      "bytes": 53,
+      "mode_matches": true,
+      "ok": true,
+      "service_tier_actual": "ultrafast",
+      "language_matches": true,
+      "seconds": 2.047
+    },
+    {
+      "id": "kill_healer",
+      "repeat": 1,
+      "source": "先杀奶",
+      "expected_mode": "normal",
+      "mode": "normal",
+      "text": "Healer FIRST, folks!",
+      "model": "gpt-6.1-sol",
+      "usage": {
+        "input_tokens": 892,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 25,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 917
+      },
+      "bytes": 20,
+      "mode_matches": true,
+      "ok": true,
+      "service_tier_actual": "ultrafast",
+      "language_matches": true,
+      "seconds": 2.516
+    },
+    {
+      "id": "rogue",
+      "repeat": 1,
+      "source": "这个盗贼跑得真快",
+      "expected_mode": "normal",
+      "mode": "normal",
+      "text": "That rogue runs FAST, folks!",
+      "model": "gpt-6.1-sol",
+      "usage": {
+        "input_tokens": 897,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 26,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 923
+      },
+      "bytes": 28,
+      "mode_matches": true,
+      "ok": true,
+      "service_tier_actual": "ultrafast",
+      "language_matches": true,
+      "seconds": 2.012
+    },
+    {
+      "id": "stormwind",
+      "repeat": 1,
+      "source": "暴风城真的难找训练师",
+      "expected_mode": "normal",
+      "mode": "normal",
+      "text": "Finding a trainer in Stormwind is really tough, folks!",
+      "model": "gpt-6.1-sol",
+      "usage": {
+        "input_tokens": 897,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 31,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 928
+      },
+      "bytes": 54,
+      "mode_matches": true,
+      "ok": true,
+      "service_tier_actual": "ultrafast",
+      "language_matches": true,
+      "seconds": 1.582
+    },
+    {
+      "id": "lfm_conditions",
+      "repeat": 1,
+      "source": "LFM 玛拉顿，缺1坦1奶，22:00开，只打紫门，不要满级",
+      "expected_mode": "normal",
+      "mode": "normal",
+      "text": "LFM Maraudon: need 1 tank, 1 healer. Start 22:00, purple entrance ONLY. No max-level characters, folks.",
+      "model": "gpt-6.1-sol",
+      "usage": {
+        "input_tokens": 913,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 67,
+        "output_tokens_details": {
+          "reasoning_tokens": 14
+        },
+        "total_tokens": 980
+      },
+      "bytes": 103,
+      "mode_matches": true,
+      "ok": true,
+      "service_tier_actual": "ultrafast",
+      "language_matches": true,
+      "seconds": 1.512
+    },
+    {
+      "id": "auction",
+      "repeat": 1,
+      "source": "拍卖行这瓶药也太贵了",
+      "expected_mode": "normal",
+      "mode": "normal",
+      "text": "That AH potion is WAY too expensive, folks.",
+      "model": "gpt-6.1-sol",
+      "usage": {
+        "input_tokens": 899,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 29,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 928
+      },
+      "bytes": 43,
+      "mode_matches": true,
+      "ok": true,
+      "service_tier_actual": "ultrafast",
+      "language_matches": true,
+      "seconds": 1.615
+    },
+    {
+      "id": "toll",
+      "repeat": 1,
+      "source": "这地精收的过路费真贵",
+      "expected_mode": "normal",
+      "mode": "normal",
+      "text": "That goblin's toll is WAY too expensive, folks.",
+      "model": "gpt-6.1-sol",
+      "usage": {
+        "input_tokens": 899,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 31,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 930
+      },
+      "bytes": 47,
+      "mode_matches": true,
+      "ok": true,
+      "service_tier_actual": "ultrafast",
+      "language_matches": true,
+      "seconds": 1.429
+    },
+    {
+      "id": "guild",
+      "repeat": 1,
+      "source": "谢谢公会的朋友帮我做完了职业任务",
+      "expected_mode": "normal",
+      "mode": "normal",
+      "text": "Thanks to my guild friends for helping me finish my class quest. Really appreciate it, folks!",
+      "model": "gpt-6.1-sol",
+      "usage": {
+        "input_tokens": 901,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 38,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 939
+      },
+      "bytes": 93,
+      "mode_matches": true,
+      "ok": true,
+      "service_tier_actual": "ultrafast",
+      "language_matches": true,
+      "seconds": 1.599
+    }
+  ],
+  "summary": {
+    "calls": 8,
+    "accepted": 8,
+    "mode_matches": 8,
+    "language_matches": 8,
+    "median_seconds": 1.607,
+    "max_seconds": 2.516
+  }
+}

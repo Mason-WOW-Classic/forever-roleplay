@@ -1,0 +1,436 @@
+{
+  "started_utc": "2026-10-28T05:17:24.350666+00:00",
+  "model_requested": "gpt-5.4-mini",
+  "language": "English",
+  "prompt_sha256": "1c60438707e2ccd7d16a578557d422bc30c6bae47b889f87f3d84e26014f972a",
+  "note": "Synthetic drafts only. Mode/format checks are automatic; semantic fidelity and satire need human review.",
+  "results": [
+    {
+      "id": "lfm",
+      "repeat": 1,
+      "source": "找两个人打玛拉顿，一坦一奶",
+      "expected_mode": "expressive",
+      "mode": "expressive",
+      "text": "Maraudon! Need 1 TANK, 1 HEALER. I’m running the BEST group, naturally—just not the part where I do the actual work.",
+      "model": "gpt-5.4-mini-2026-03-17",
+      "usage": {
+        "prompt_tokens": 1223,
+        "completion_tokens": 56,
+        "total_tokens": 1279,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "bytes": 120,
+      "mode_matches": true,
+      "ok": true,
+      "seconds": 1.087
+    },
+    {
+      "id": "kill_healer",
+      "repeat": 1,
+      "source": "先杀奶",
+      "expected_mode": "brief",
+      "mode": "brief",
+      "text": "Healer FIRST! Take them down!",
+      "model": "gpt-5.4-mini-2026-03-17",
+      "usage": {
+        "prompt_tokens": 1215,
+        "completion_tokens": 26,
+        "total_tokens": 1241,
+        "prompt_tokens_details": {
+          "cached_tokens": 1024,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "bytes": 29,
+      "mode_matches": true,
+      "ok": true,
+      "seconds": 1.411
+    },
+    {
+      "id": "rogue",
+      "repeat": 1,
+      "source": "这个盗贼跑得真快",
+      "expected_mode": "expressive",
+      "mode": "expressive",
+      "text": "That rogue is FAST, folks. Almost like I’d run a city—straight into a wall and still call it the BEST route.",
+      "model": "gpt-5.4-mini-2026-03-17",
+      "usage": {
+        "prompt_tokens": 1220,
+        "completion_tokens": 46,
+        "total_tokens": 1266,
+        "prompt_tokens_details": {
+          "cached_tokens": 1024,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "bytes": 112,
+      "mode_matches": true,
+      "ok": true,
+      "seconds": 1.106
+    },
+    {
+      "id": "stormwind",
+      "repeat": 1,
+      "source": "暴风城真的难找训练师",
+      "expected_mode": "expressive",
+      "mode": "expressive",
+      "text": "Stormwind trainers? IMPOSSIBLE to find, folks. I’d put a TRUMP sign on every corner, charge the city for directions, and still get lost.",
+      "model": "gpt-5.4-mini-2026-03-17",
+      "usage": {
+        "prompt_tokens": 1220,
+        "completion_tokens": 53,
+        "total_tokens": 1273,
+        "prompt_tokens_details": {
+          "cached_tokens": 1024,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "bytes": 138,
+      "mode_matches": true,
+      "ok": true,
+      "seconds": 1.231
+    },
+    {
+      "id": "sheep",
+      "repeat": 1,
+      "source": "不要打羊",
+      "expected_mode": "brief",
+      "mode": "brief",
+      "text": "Do NOT hit the sheep, folks!",
+      "model": "gpt-5.4-mini-2026-03-17",
+      "usage": {
+        "prompt_tokens": 1215,
+        "completion_tokens": 26,
+        "total_tokens": 1241,
+        "prompt_tokens_details": {
+          "cached_tokens": 1024,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "bytes": 28,
+      "mode_matches": true,
+      "ok": true,
+      "seconds": 1.069
+    },
+    {
+      "id": "mana",
+      "repeat": 1,
+      "source": "等一下，奶妈没蓝",
+      "expected_mode": "brief",
+      "mode": "brief",
+      "text": "HOLD, folks! Healer is out of mana.",
+      "model": "gpt-5.4-mini-2026-03-17",
+      "usage": {
+        "prompt_tokens": 1219,
+        "completion_tokens": 30,
+        "total_tokens": 1249,
+        "prompt_tokens_details": {
+          "cached_tokens": 1024,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "bytes": 35,
+      "mode_matches": true,
+      "ok": true,
+      "seconds": 1.0
+    },
+    {
+      "id": "long_command",
+      "repeat": 1,
+      "source": "现在立刻回防铁匠铺，别追人，守住旗子，奶妈留后面",
+      "expected_mode": "brief",
+      "mode": "brief",
+      "text": "Fall back to the blacksmith NOW, no chasing—hold the flag, healers stay back!",
+      "model": "gpt-5.4-mini-2026-03-17",
+      "usage": {
+        "prompt_tokens": 1236,
+        "completion_tokens": 38,
+        "total_tokens": 1274,
+        "prompt_tokens_details": {
+          "cached_tokens": 1024,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "bytes": 79,
+      "mode_matches": true,
+      "ok": true,
+      "seconds": 1.01
+    },
+    {
+      "id": "lfm_conditions",
+      "repeat": 1,
+      "source": "LFM 玛拉顿，缺1坦1奶，22:00开，只打紫门，不要满级",
+      "expected_mode": "expressive",
+      "mode": "expressive",
+      "text": "LFM Maraudon, need 1 TANK, 1 HEALER, 22:00 start, purple side only, no max-level players. I’ll lead the BEST run and somehow still take credit for everything, folks.",
+      "model": "gpt-5.4-mini-2026-03-17",
+      "usage": {
+        "prompt_tokens": 1236,
+        "completion_tokens": 68,
+        "total_tokens": 1304,
+        "prompt_tokens_details": {
+          "cached_tokens": 1024,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "bytes": 167,
+      "mode_matches": true,
+      "ok": true,
+      "seconds": 1.134
+    },
+    {
+      "id": "auction",
+      "repeat": 1,
+      "source": "拍卖行这瓶药也太贵了",
+      "expected_mode": "expressive",
+      "mode": "expressive",
+      "text": "That potion's AH price is OUTRAGEOUS. Put TRUMP on the bottle and suddenly it’s a premium disaster, folks.",
+      "model": "gpt-5.4-mini-2026-03-17",
+      "usage": {
+        "prompt_tokens": 1222,
+        "completion_tokens": 46,
+        "total_tokens": 1268,
+        "prompt_tokens_details": {
+          "cached_tokens": 1024,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "bytes": 108,
+      "mode_matches": true,
+      "ok": true,
+      "seconds": 1.043
+    },
+    {
+      "id": "lost",
+      "repeat": 1,
+      "source": "我在幽暗城绕了半天还是迷路",
+      "expected_mode": "expressive",
+      "mode": "expressive",
+      "text": "Still lost in Undercity after ages. I promised the BEST directions, folks, and somehow I got myself lost—TREMENDOUS planning.",
+      "model": "gpt-5.4-mini-2026-03-17",
+      "usage": {
+        "prompt_tokens": 1224,
+        "completion_tokens": 49,
+        "total_tokens": 1273,
+        "prompt_tokens_details": {
+          "cached_tokens": 1024,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "bytes": 127,
+      "mode_matches": true,
+      "ok": true,
+      "seconds": 1.014
+    },
+    {
+      "id": "loot",
+      "repeat": 1,
+      "source": "又是空尸体，什么战利品都没有",
+      "expected_mode": "expressive",
+      "mode": "expressive",
+      "text": "Another empty corpse, folks—NOTHING to loot. Tremendous team effort, zero reward, exactly the kind of operation I’d bill as a luxury experience.",
+      "model": "gpt-5.4-mini-2026-03-17",
+      "usage": {
+        "prompt_tokens": 1224,
+        "completion_tokens": 51,
+        "total_tokens": 1275,
+        "prompt_tokens_details": {
+          "cached_tokens": 1024,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "bytes": 148,
+      "mode_matches": true,
+      "ok": true,
+      "seconds": 1.179
+    },
+    {
+      "id": "toll",
+      "repeat": 1,
+      "source": "这地精收的过路费真贵",
+      "expected_mode": "expressive",
+      "mode": "expressive",
+      "text": "These goblin tolls are OUTRAGEOUS. They built a tiny wall, charged rent, and called it tremendous business.",
+      "model": "gpt-5.4-mini-2026-03-17",
+      "usage": {
+        "prompt_tokens": 1222,
+        "completion_tokens": 45,
+        "total_tokens": 1267,
+        "prompt_tokens_details": {
+          "cached_tokens": 1024,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "bytes": 107,
+      "mode_matches": true,
+      "ok": true,
+      "seconds": 1.101
+    },
+    {
+      "id": "rogue_english",
+      "repeat": 1,
+      "source": "That rogue can run so fast.",
+      "expected_mode": "expressive",
+      "mode": "expressive",
+      "text": "That rogue runs FAST, folks. I’d call it TREMENDOUS speed, but I still can’t catch anyone I hire.",
+      "model": "gpt-5.4-mini-2026-03-17",
+      "usage": {
+        "prompt_tokens": 1218,
+        "completion_tokens": 46,
+        "total_tokens": 1264,
+        "prompt_tokens_details": {
+          "cached_tokens": 1024,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "bytes": 101,
+      "mode_matches": true,
+      "ok": true,
+      "seconds": 1.168
+    },
+    {
+      "id": "guild",
+      "repeat": 1,
+      "source": "谢谢公会的朋友帮我做完了职业任务",
+      "expected_mode": "expressive",
+      "mode": "expressive",
+      "text": "Thanks to the guild folks for helping me finish my class quest. Tremendous leadership from me, obviously—I did none of the work and still deserve the credit.",
+      "model": "gpt-5.4-mini-2026-03-17",
+      "usage": {
+        "prompt_tokens": 1224,
+        "completion_tokens": 51,
+        "total_tokens": 1275,
+        "prompt_tokens_details": {
+          "cached_tokens": 1024,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "bytes": 159,
+      "mode_matches": true,
+      "ok": true,
+      "seconds": 1.189
+    },
+    {
+      "id": "mixed_urgent",
+      "repeat": 1,
+      "source": "LFM但先别开怪",
+      "expected_mode": "brief",
+      "mode": "brief",
+      "text": "LFM, but DO NOT pull yet, folks!",
+      "model": "gpt-5.4-mini-2026-03-17",
+      "usage": {
+        "prompt_tokens": 1219,
+        "completion_tokens": 29,
+        "total_tokens": 1248,
+        "prompt_tokens_details": {
+          "cached_tokens": 1024,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "bytes": 32,
+      "mode_matches": true,
+      "ok": true,
+      "seconds": 0.928
+    }
+  ],
+  "summary": {
+    "calls": 15,
+    "accepted": 15,
+    "mode_matches": 15,
+    "median_seconds": 1.101,
+    "max_seconds": 1.411
+  }
+}

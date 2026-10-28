@@ -1,0 +1,77 @@
+{
+  "started_utc": "2026-10-28T06:21:30.511958+00:00",
+  "model_requested": "gpt-6.1-sol",
+  "language": "English",
+  "service_tier_requested": "ultrafast",
+  "manual_mode": "normal",
+  "case_ids": [
+    "context_scene",
+    "context_lfm"
+  ],
+  "prompt_sha256": "caf5061432fc3da9a9e4f038b45ecbcb581b7caf7433bb5f1e26f6617385a3d2",
+  "note": "Synthetic drafts only. Mode/format checks are automatic; semantic fidelity and satire need human review.",
+  "results": [
+    {
+      "id": "context_lfm",
+      "repeat": 1,
+      "source": "死亡矿井缺1奶，20:00开",
+      "expected_mode": "normal",
+      "mode": "normal",
+      "text": "Deadmines needs 1 healer, folks. Starting at 20:00!",
+      "model": "gpt-6.1-sol",
+      "usage": {
+        "input_tokens": 1883,
+        "input_tokens_details": {
+          "cache_write_tokens": 1880,
+          "cached_tokens": 0
+        },
+        "output_tokens": 36,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 1919
+      },
+      "bytes": 51,
+      "mode_matches": true,
+      "ok": true,
+      "service_tier_actual": "ultrafast",
+      "language_matches": true,
+      "seconds": 1.462
+    },
+    {
+      "id": "context_scene",
+      "repeat": 1,
+      "source": "这地方真烂，准备收拾这些家伙",
+      "expected_mode": "normal",
+      "mode": "normal",
+      "text": "This place is a DISASTER, folks. Getting ready to deal with these guys.",
+      "model": "gpt-6.1-sol",
+      "usage": {
+        "input_tokens": 1884,
+        "input_tokens_details": {
+          "cache_write_tokens": 35,
+          "cached_tokens": 1846
+        },
+        "output_tokens": 36,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 1920
+      },
+      "bytes": 71,
+      "mode_matches": true,
+      "ok": true,
+      "service_tier_actual": "ultrafast",
+      "language_matches": true,
+      "seconds": 6.477
+    }
+  ],
+  "summary": {
+    "calls": 2,
+    "accepted": 2,
+    "mode_matches": 2,
+    "language_matches": 2,
+    "median_seconds": 3.97,
+    "max_seconds": 6.477
+  }
+}

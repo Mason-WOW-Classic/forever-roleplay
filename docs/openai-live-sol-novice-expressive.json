@@ -1,0 +1,49 @@
+{
+  "started_utc": "2026-10-28T05:45:34.548150+00:00",
+  "model_requested": "gpt-6.1-sol",
+  "language": "English",
+  "service_tier_requested": "ultrafast",
+  "manual_mode": "expressive",
+  "case_ids": [
+    "novice"
+  ],
+  "prompt_sha256": "3a12ea88f0df2b4c7e2c9e8477679a473689c1893a5e5041b6972f2b0121585d",
+  "note": "Synthetic drafts only. Mode/format checks are automatic; semantic fidelity and satire need human review.",
+  "results": [
+    {
+      "id": "novice",
+      "repeat": 1,
+      "source": "我没打过玛拉顿，想找愿意带新人的队伍",
+      "expected_mode": "expressive",
+      "mode": "expressive",
+      "text": "Never run Maraudon before, folks. Looking for a group willing to take a newcomer!",
+      "model": "gpt-6.1-sol",
+      "usage": {
+        "input_tokens": 908,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 39,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 947
+      },
+      "bytes": 81,
+      "mode_matches": true,
+      "ok": true,
+      "service_tier_actual": "ultrafast",
+      "language_matches": true,
+      "seconds": 1.352
+    }
+  ],
+  "summary": {
+    "calls": 1,
+    "accepted": 1,
+    "mode_matches": 1,
+    "language_matches": 1,
+    "median_seconds": 1.352,
+    "max_seconds": 1.352
+  }
+}

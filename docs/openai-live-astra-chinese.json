@@ -1,0 +1,132 @@
+{
+  "started_utc": "2026-10-28T05:27:35.696499+00:00",
+  "model_requested": "gpt-6-astra",
+  "language": "跟随原文",
+  "service_tier_requested": "ultrafast",
+  "case_ids": [
+    "kill_healer",
+    "auction",
+    "stormwind",
+    "rogue"
+  ],
+  "prompt_sha256": "c2c3d9973c640b5d1d4f54f8035b5c97ed6ef454641d67573e0b266432853ea0",
+  "note": "Synthetic drafts only. Mode/format checks are automatic; semantic fidelity and satire need human review.",
+  "results": [
+    {
+      "id": "kill_healer",
+      "repeat": 1,
+      "source": "先杀奶",
+      "expected_mode": "brief",
+      "mode": "brief",
+      "text": "先杀奶，就这么干！",
+      "model": "gpt-6-astra",
+      "usage": {
+        "input_tokens": 1409,
+        "input_tokens_details": {
+          "cache_write_tokens": 46,
+          "cached_tokens": 1360
+        },
+        "output_tokens": 26,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 1435
+      },
+      "bytes": 27,
+      "mode_matches": true,
+      "ok": true,
+      "service_tier_actual": "ultrafast",
+      "language_matches": true,
+      "seconds": 1.333
+    },
+    {
+      "id": "auction",
+      "repeat": 1,
+      "source": "拍卖行这瓶药也太贵了",
+      "expected_mode": "expressive",
+      "mode": "expressive",
+      "text": "拍卖行这瓶药也太贵了，伙计们，涨得比我的特朗普币还猛！不过药水至少真有用，不像我，只会保证效果惊人。",
+      "model": "gpt-6-astra",
+      "usage": {
+        "input_tokens": 1416,
+        "input_tokens_details": {
+          "cache_write_tokens": 53,
+          "cached_tokens": 1360
+        },
+        "output_tokens": 61,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 1477
+      },
+      "bytes": 150,
+      "mode_matches": true,
+      "ok": true,
+      "service_tier_actual": "ultrafast",
+      "language_matches": true,
+      "seconds": 1.769
+    },
+    {
+      "id": "stormwind",
+      "repeat": 1,
+      "source": "暴风城真的难找训练师",
+      "expected_mode": "expressive",
+      "mode": "expressive",
+      "text": "暴风城的训练师真难找，伙计们！我承诺修最棒的路标，结果全写着「特朗普大厦」，连我自己都迷路了。",
+      "model": "gpt-6-astra",
+      "usage": {
+        "input_tokens": 1414,
+        "input_tokens_details": {
+          "cache_write_tokens": 51,
+          "cached_tokens": 1360
+        },
+        "output_tokens": 61,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 1475
+      },
+      "bytes": 141,
+      "mode_matches": true,
+      "ok": true,
+      "service_tier_actual": "ultrafast",
+      "language_matches": true,
+      "seconds": 1.57
+    },
+    {
+      "id": "rogue",
+      "repeat": 1,
+      "source": "这个盗贼跑得真快",
+      "expected_mode": "expressive",
+      "mode": "expressive",
+      "text": "这个盗贼跑得真快，伙计们！我宣布这是我的指挥成果——虽然我还没找到疾跑键。",
+      "model": "gpt-6-astra",
+      "usage": {
+        "input_tokens": 1414,
+        "input_tokens_details": {
+          "cache_write_tokens": 51,
+          "cached_tokens": 1360
+        },
+        "output_tokens": 50,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 1464
+      },
+      "bytes": 111,
+      "mode_matches": true,
+      "ok": true,
+      "service_tier_actual": "ultrafast",
+      "language_matches": true,
+      "seconds": 1.588
+    }
+  ],
+  "summary": {
+    "calls": 4,
+    "accepted": 4,
+    "mode_matches": 4,
+    "language_matches": 4,
+    "median_seconds": 1.579,
+    "max_seconds": 1.769
+  }
+}

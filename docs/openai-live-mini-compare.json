@@ -1,0 +1,268 @@
+{
+  "started_utc": "2026-10-28T05:27:22.963240+00:00",
+  "model_requested": "gpt-5.4-mini",
+  "language": "English",
+  "service_tier_requested": "default",
+  "case_ids": [
+    "kill_healer",
+    "lfm",
+    "rogue",
+    "stormwind",
+    "auction",
+    "lfm_conditions",
+    "toll",
+    "guild"
+  ],
+  "prompt_sha256": "c2c3d9973c640b5d1d4f54f8035b5c97ed6ef454641d67573e0b266432853ea0",
+  "note": "Synthetic drafts only. Mode/format checks are automatic; semantic fidelity and satire need human review.",
+  "results": [
+    {
+      "id": "lfm",
+      "repeat": 1,
+      "source": "找两个人打玛拉顿，一坦一奶",
+      "expected_mode": "expressive",
+      "mode": "expressive",
+      "text": "Maraudon! Need 2 people, 1 TANK and 1 HEALER. TREMENDOUS leadership, folks — I’ll take the credit when you do all the work.",
+      "model": "gpt-5.4-mini-2026-03-17",
+      "usage": {
+        "prompt_tokens": 1400,
+        "completion_tokens": 60,
+        "total_tokens": 1460,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "bytes": 127,
+      "mode_matches": true,
+      "ok": true,
+      "service_tier_actual": "default",
+      "language_matches": true,
+      "seconds": 1.484
+    },
+    {
+      "id": "kill_healer",
+      "repeat": 1,
+      "source": "先杀奶",
+      "expected_mode": "brief",
+      "mode": "brief",
+      "text": "Healer FIRST, folks! Don't get fancy.",
+      "model": "gpt-5.4-mini-2026-03-17",
+      "usage": {
+        "prompt_tokens": 1392,
+        "completion_tokens": 28,
+        "total_tokens": 1420,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "bytes": 37,
+      "mode_matches": true,
+      "ok": true,
+      "service_tier_actual": "default",
+      "language_matches": true,
+      "seconds": 1.506
+    },
+    {
+      "id": "rogue",
+      "repeat": 1,
+      "source": "这个盗贼跑得真快",
+      "expected_mode": "expressive",
+      "mode": "expressive",
+      "text": "That rogue is moving FAST, folks. Almost as fast as I disappear when the bill shows up.",
+      "model": "gpt-5.4-mini-2026-03-17",
+      "usage": {
+        "prompt_tokens": 1397,
+        "completion_tokens": 39,
+        "total_tokens": 1436,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "bytes": 87,
+      "mode_matches": true,
+      "ok": true,
+      "service_tier_actual": "default",
+      "language_matches": true,
+      "seconds": 1.001
+    },
+    {
+      "id": "stormwind",
+      "repeat": 1,
+      "source": "暴风城真的难找训练师",
+      "expected_mode": "expressive",
+      "mode": "expressive",
+      "text": "Stormwind trainers? Impossible to find, folks. Let the Trump Organization rebuild it. Then even the signs can charge rent.",
+      "model": "gpt-5.4-mini-2026-03-17",
+      "usage": {
+        "prompt_tokens": 1397,
+        "completion_tokens": 44,
+        "total_tokens": 1441,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "bytes": 122,
+      "mode_matches": true,
+      "ok": true,
+      "service_tier_actual": "default",
+      "language_matches": true,
+      "seconds": 1.286
+    },
+    {
+      "id": "auction",
+      "repeat": 1,
+      "source": "拍卖行这瓶药也太贵了",
+      "expected_mode": "expressive",
+      "mode": "expressive",
+      "text": "That AH potion price is climbing faster than my Trump coin, folks. Tremendous markup, absolutely terrible deal.",
+      "model": "gpt-5.4-mini-2026-03-17",
+      "usage": {
+        "prompt_tokens": 1399,
+        "completion_tokens": 41,
+        "total_tokens": 1440,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "bytes": 111,
+      "mode_matches": true,
+      "ok": true,
+      "service_tier_actual": "default",
+      "language_matches": true,
+      "seconds": 1.166
+    },
+    {
+      "id": "lfm_conditions",
+      "repeat": 1,
+      "source": "LFM 玛拉顿，缺1坦1奶，22:00开，只打紫门，不要满级",
+      "expected_mode": "expressive",
+      "mode": "expressive",
+      "text": "LFM Maraudon, need 1 TANK and 1 HEALER, 22:00 start, purple wing only, no max-level players. Tremendous plan, folks: I’ll take all the credit while the BEST people do the work.",
+      "model": "gpt-5.4-mini-2026-03-17",
+      "usage": {
+        "prompt_tokens": 1413,
+        "completion_tokens": 72,
+        "total_tokens": 1485,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "bytes": 178,
+      "mode_matches": true,
+      "ok": true,
+      "service_tier_actual": "default",
+      "language_matches": true,
+      "seconds": 1.462
+    },
+    {
+      "id": "toll",
+      "repeat": 1,
+      "source": "这地精收的过路费真贵",
+      "expected_mode": "expressive",
+      "mode": "expressive",
+      "text": "This goblin toll is RIDICULOUS, folks. I’d call it a tremendous deal, but only if I were the one pocketing it.",
+      "model": "gpt-5.4-mini-2026-03-17",
+      "usage": {
+        "prompt_tokens": 1399,
+        "completion_tokens": 50,
+        "total_tokens": 1449,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "bytes": 112,
+      "mode_matches": true,
+      "ok": true,
+      "service_tier_actual": "default",
+      "language_matches": true,
+      "seconds": 1.468
+    },
+    {
+      "id": "guild",
+      "repeat": 1,
+      "source": "谢谢公会的朋友帮我做完了职业任务",
+      "expected_mode": "expressive",
+      "mode": "expressive",
+      "text": "Thanks to the guild folks for finishing my class quest. Tremendous teamwork—naturally, I’ll take all the credit.",
+      "model": "gpt-5.4-mini-2026-03-17",
+      "usage": {
+        "prompt_tokens": 1401,
+        "completion_tokens": 44,
+        "total_tokens": 1445,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "bytes": 116,
+      "mode_matches": true,
+      "ok": true,
+      "service_tier_actual": "default",
+      "language_matches": true,
+      "seconds": 1.145
+    }
+  ],
+  "summary": {
+    "calls": 8,
+    "accepted": 8,
+    "mode_matches": 8,
+    "language_matches": 8,
+    "median_seconds": 1.374,
+    "max_seconds": 1.506
+  }
+}

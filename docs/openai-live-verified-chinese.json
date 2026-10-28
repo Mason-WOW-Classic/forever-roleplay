@@ -1,0 +1,249 @@
+{
+  "started_utc": "2026-10-28T05:18:51.399752+00:00",
+  "model_requested": "gpt-5.4-mini",
+  "language": "跟随原文",
+  "prompt_sha256": "eb5910c406b666c5a7734e1dfb896542e187a51b0203a4f6a159e4dc20fc8ca7",
+  "note": "Synthetic drafts only. Mode/format checks are automatic; semantic fidelity and satire need human review.",
+  "results": [
+    {
+      "id": "kill_healer",
+      "repeat": 1,
+      "source": "先杀奶",
+      "expected_mode": "brief",
+      "mode": "brief",
+      "text": "先杀奶！我来指挥，当然是TREMENDOUS地准！",
+      "model": "gpt-5.4-mini-2026-03-17",
+      "usage": {
+        "prompt_tokens": 1263,
+        "completion_tokens": 36,
+        "total_tokens": 1299,
+        "prompt_tokens_details": {
+          "cached_tokens": 1024,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "bytes": 55,
+      "mode_matches": true,
+      "ok": true,
+      "language_matches": true,
+      "seconds": 1.054
+    },
+    {
+      "id": "lfm",
+      "repeat": 1,
+      "source": "找两个人打玛拉顿，一坦一奶",
+      "expected_mode": "expressive",
+      "mode": "expressive",
+      "text": "玛拉顿来2人，一坦一奶。I only recruit the BEST, folks, then I take all the credit.",
+      "model": "gpt-5.4-mini-2026-03-17",
+      "usage": {
+        "prompt_tokens": 1271,
+        "completion_tokens": 45,
+        "total_tokens": 1316,
+        "prompt_tokens_details": {
+          "cached_tokens": 1024,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "bytes": 93,
+      "mode_matches": true,
+      "ok": true,
+      "language_matches": true,
+      "seconds": 1.184
+    },
+    {
+      "id": "rogue",
+      "repeat": 1,
+      "source": "这个盗贼跑得真快",
+      "expected_mode": "expressive",
+      "mode": "expressive",
+      "text": "这个盗贼跑得真快，快得像我吹过的TREMENDOUS承诺，结果人早没影了，folks。",
+      "model": "gpt-5.4-mini-2026-03-17",
+      "usage": {
+        "prompt_tokens": 1268,
+        "completion_tokens": 52,
+        "total_tokens": 1320,
+        "prompt_tokens_details": {
+          "cached_tokens": 1024,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "bytes": 99,
+      "mode_matches": true,
+      "ok": true,
+      "language_matches": true,
+      "seconds": 1.215
+    },
+    {
+      "id": "stormwind",
+      "repeat": 1,
+      "source": "暴风城真的难找训练师",
+      "expected_mode": "expressive",
+      "mode": "expressive",
+      "text": "暴风城找训练师？太难了，folks。连我都能把路标做成金的，结果还是找不到，TREMENDOUS管理失误。",
+      "model": "gpt-5.4-mini-2026-03-17",
+      "usage": {
+        "prompt_tokens": 1268,
+        "completion_tokens": 58,
+        "total_tokens": 1326,
+        "prompt_tokens_details": {
+          "cached_tokens": 1024,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "bytes": 129,
+      "mode_matches": true,
+      "ok": true,
+      "language_matches": true,
+      "seconds": 1.27
+    },
+    {
+      "id": "sheep",
+      "repeat": 1,
+      "source": "不要打羊",
+      "expected_mode": "brief",
+      "mode": "brief",
+      "text": "别打羊，folks！",
+      "model": "gpt-5.4-mini-2026-03-17",
+      "usage": {
+        "prompt_tokens": 1263,
+        "completion_tokens": 25,
+        "total_tokens": 1288,
+        "prompt_tokens_details": {
+          "cached_tokens": 1024,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "bytes": 20,
+      "mode_matches": true,
+      "ok": true,
+      "language_matches": true,
+      "seconds": 0.934
+    },
+    {
+      "id": "mana",
+      "repeat": 1,
+      "source": "等一下，奶妈没蓝",
+      "expected_mode": "brief",
+      "mode": "brief",
+      "text": "等等，奶妈没蓝！",
+      "model": "gpt-5.4-mini-2026-03-17",
+      "usage": {
+        "prompt_tokens": 1267,
+        "completion_tokens": 25,
+        "total_tokens": 1292,
+        "prompt_tokens_details": {
+          "cached_tokens": 1024,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "bytes": 24,
+      "mode_matches": true,
+      "ok": true,
+      "language_matches": true,
+      "seconds": 1.372
+    },
+    {
+      "id": "long_command",
+      "repeat": 1,
+      "source": "现在立刻回防铁匠铺，别追人，守住旗子，奶妈留后面",
+      "expected_mode": "brief",
+      "mode": "brief",
+      "text": "立刻回防铁匠铺，别追人，守旗子，奶妈留后面！",
+      "model": "gpt-5.4-mini-2026-03-17",
+      "usage": {
+        "prompt_tokens": 1284,
+        "completion_tokens": 41,
+        "total_tokens": 1325,
+        "prompt_tokens_details": {
+          "cached_tokens": 1152,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "bytes": 66,
+      "mode_matches": true,
+      "ok": true,
+      "language_matches": true,
+      "seconds": 1.107
+    },
+    {
+      "id": "lfm_conditions",
+      "repeat": 1,
+      "source": "LFM 玛拉顿，缺1坦1奶，22:00开，只打紫门，不要满级",
+      "expected_mode": "expressive",
+      "mode": "expressive",
+      "text": "LFM 玛拉顿，缺1坦1奶，22:00开，只打紫门，不要满级；我这指挥，TREMENDOUS，连紫门都得按我的节奏走，BEST people 来！",
+      "model": "gpt-5.4-mini-2026-03-17",
+      "usage": {
+        "prompt_tokens": 1284,
+        "completion_tokens": 69,
+        "total_tokens": 1353,
+        "prompt_tokens_details": {
+          "cached_tokens": 1152,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "bytes": 153,
+      "mode_matches": true,
+      "ok": true,
+      "language_matches": true,
+      "seconds": 1.347
+    }
+  ],
+  "summary": {
+    "calls": 8,
+    "accepted": 8,
+    "mode_matches": 8,
+    "language_matches": 8,
+    "median_seconds": 1.2,
+    "max_seconds": 1.372
+  }
+}

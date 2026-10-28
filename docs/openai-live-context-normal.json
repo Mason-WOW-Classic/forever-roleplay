@@ -1,0 +1,77 @@
+{
+  "started_utc": "2026-10-28T06:19:59.722346+00:00",
+  "model_requested": "gpt-6.1-sol",
+  "language": "English",
+  "service_tier_requested": "ultrafast",
+  "manual_mode": "normal",
+  "case_ids": [
+    "deadmines_banter",
+    "context_lfm"
+  ],
+  "prompt_sha256": "899cfa26c88dbc80e5ed4e42feeba91ebb9ca1cf405a527a369f8513672e77ac",
+  "note": "Synthetic drafts only. Mode/format checks are automatic; semantic fidelity and satire need human review.",
+  "results": [
+    {
+      "id": "context_lfm",
+      "repeat": 1,
+      "source": "死亡矿井缺1奶，20:00开",
+      "expected_mode": "normal",
+      "mode": "normal",
+      "text": "Deadmines needs 1 healer, folks. Starting at 20:00.",
+      "model": "gpt-6.1-sol",
+      "usage": {
+        "input_tokens": 1789,
+        "input_tokens_details": {
+          "cache_write_tokens": 1786,
+          "cached_tokens": 0
+        },
+        "output_tokens": 36,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 1825
+      },
+      "bytes": 51,
+      "mode_matches": true,
+      "ok": true,
+      "service_tier_actual": "ultrafast",
+      "language_matches": true,
+      "seconds": 1.618
+    },
+    {
+      "id": "deadmines_banter",
+      "repeat": 1,
+      "source": "开怪吧，收拾这些迪菲亚",
+      "expected_mode": "normal",
+      "mode": "normal",
+      "text": "Pull them, folks. Let's take down these Defias!",
+      "model": "gpt-6.1-sol",
+      "usage": {
+        "input_tokens": 1788,
+        "input_tokens_details": {
+          "cache_write_tokens": 33,
+          "cached_tokens": 1752
+        },
+        "output_tokens": 31,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 1819
+      },
+      "bytes": 47,
+      "mode_matches": true,
+      "ok": true,
+      "service_tier_actual": "ultrafast",
+      "language_matches": true,
+      "seconds": 3.137
+    }
+  ],
+  "summary": {
+    "calls": 2,
+    "accepted": 2,
+    "mode_matches": 2,
+    "language_matches": 2,
+    "median_seconds": 2.377,
+    "max_seconds": 3.137
+  }
+}

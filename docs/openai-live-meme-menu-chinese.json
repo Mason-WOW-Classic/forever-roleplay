@@ -1,0 +1,133 @@
+{
+  "started_utc": "2026-10-28T05:52:25.934086+00:00",
+  "model_requested": "gpt-6.1-sol",
+  "language": "跟随原文",
+  "service_tier_requested": "ultrafast",
+  "manual_mode": "expressive",
+  "case_ids": [
+    "westfall",
+    "island",
+    "price_fall",
+    "bridge"
+  ],
+  "prompt_sha256": "f7716d4aa5b12bf055a1643fe26e3ec16f824cf770efd5a71d027b8cb85e3426",
+  "note": "Synthetic drafts only. Mode/format checks are automatic; semantic fidelity and satire need human review.",
+  "results": [
+    {
+      "id": "island",
+      "repeat": 1,
+      "source": "赞达拉巨魔这个小岛看起来神神秘秘的",
+      "expected_mode": "expressive",
+      "mode": "expressive",
+      "text": "赞达拉巨魔这个小岛看着神神秘秘的，朋友们！这保密派头，简直是艾泼斯坦私人岛屿级别的！",
+      "model": "gpt-6.1-sol",
+      "usage": {
+        "input_tokens": 1503,
+        "input_tokens_details": {
+          "cache_write_tokens": 59,
+          "cached_tokens": 1441
+        },
+        "output_tokens": 61,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 1564
+      },
+      "bytes": 126,
+      "mode_matches": true,
+      "ok": true,
+      "service_tier_actual": "ultrafast",
+      "language_matches": true,
+      "seconds": 1.964
+    },
+    {
+      "id": "westfall",
+      "repeat": 1,
+      "source": "西部荒野也太破了",
+      "expected_mode": "expressive",
+      "mode": "expressive",
+      "text": "西部荒野也太破了，伙计们，简直是场灾难！这地方像是拜登管过的，破得不可思议！",
+      "model": "gpt-6.1-sol",
+      "usage": {
+        "input_tokens": 1496,
+        "input_tokens_details": {
+          "cache_write_tokens": 52,
+          "cached_tokens": 1441
+        },
+        "output_tokens": 56,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 1552
+      },
+      "bytes": 114,
+      "mode_matches": true,
+      "ok": true,
+      "service_tier_actual": "ultrafast",
+      "language_matches": true,
+      "seconds": 2.358
+    },
+    {
+      "id": "price_fall",
+      "repeat": 1,
+      "source": "这材料价格跌得真快",
+      "expected_mode": "expressive",
+      "mode": "expressive",
+      "text": "这材料价格跌得也太快了，伙计们，简直是崩盘！跟特朗普币一个路数，惨烈，太惨烈了！",
+      "model": "gpt-6.1-sol",
+      "usage": {
+        "input_tokens": 1495,
+        "input_tokens_details": {
+          "cache_write_tokens": 51,
+          "cached_tokens": 1441
+        },
+        "output_tokens": 56,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 1551
+      },
+      "bytes": 120,
+      "mode_matches": true,
+      "ok": true,
+      "service_tier_actual": "ultrafast",
+      "language_matches": true,
+      "seconds": 1.653
+    },
+    {
+      "id": "bridge",
+      "repeat": 1,
+      "source": "这座城的桥都塌了，路也没人修",
+      "expected_mode": "expressive",
+      "mode": "expressive",
+      "text": "这座城的桥全塌了，路也没人修，乡亲们，简直是灾难！这市政水平，像是拜登管的！",
+      "model": "gpt-6.1-sol",
+      "usage": {
+        "input_tokens": 1502,
+        "input_tokens_details": {
+          "cache_write_tokens": 58,
+          "cached_tokens": 1441
+        },
+        "output_tokens": 57,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 1559
+      },
+      "bytes": 114,
+      "mode_matches": true,
+      "ok": true,
+      "service_tier_actual": "ultrafast",
+      "language_matches": true,
+      "seconds": 1.399
+    }
+  ],
+  "summary": {
+    "calls": 4,
+    "accepted": 4,
+    "mode_matches": 4,
+    "language_matches": 4,
+    "median_seconds": 1.808,
+    "max_seconds": 2.358
+  }
+}
